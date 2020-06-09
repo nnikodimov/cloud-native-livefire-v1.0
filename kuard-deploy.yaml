@@ -15,7 +15,7 @@ spec:
         app: kuard
     spec:
       containers:
-        - image: gcr.io/kuar-demo/kuard-amd64:1
+        - image: harbor-01a.corp.local/library/kuard-amd64:blue
           name: kuard
           ports:
             - containerPort: 8080
